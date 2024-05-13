@@ -1,0 +1,687 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+@font-face {
+    font-family: 'sqmarket';
+    src: url('fonts/sqmarket-medium.woff2') format('woff2'),
+         url('fonts/sqmarket-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'orkneymedium';
+    src: url('fonts/orkney-medium.woff2') format('woff2'),
+         url('fonts/orkney-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+        font-family: 'robotoregular';
+        src: url('fonts/roboto-regular.woff2') format('woff2'),
+             url('fonts/roboto-regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+
+
+
+
+
+
+body { padding: 0; margin: 0;}
+
+
+h1,h2,h3 , ul  { padding: 0; margin: 0;}
+
+h1,h2,h3  {font-family: sqmarket;}
+
+p , li {
+        font-family: 'robotoregular';
+}
+button {
+        font-family: 'orkneymedium';  
+}
+span {
+        font-family: 'orkneymedium';  
+}
+
+.mobile-btn { display: none;}
+
+
+.wrapper {
+width: 1270px;
+margin: 0px auto;
+
+}
+header {
+    border-bottom: 1px solid rgb(233, 218, 218);
+    padding-bottom: 15px;
+    padding-top: 15px;
+  
+
+
+}
+.logo{
+    
+    width: 10%;
+    float: left;
+    margin-top: 17px;
+}
+.nav{
+
+        width: 65%;
+        float: left;
+        text-align: right;
+        margin-top: 12px;
+        font-family: 'orkneymedium';
+}
+.nav li{
+        list-style: none;
+        display: inline-block;
+
+}
+.nav li a{
+        text-decoration: none;
+        color: black;
+        padding: 15pt;
+}
+.btn {
+        float: left;
+        width: 25%;
+        margin-top: -2px;
+}
+.clear { clear: both;}
+
+.b-one {
+        color: red;
+        padding: 12px 18px;
+        border-color: red;
+        border-radius: 12px;
+        background-color: aliceblue;
+}
+.b-two {
+        color: blue;
+        padding: 12px 18px;
+        border-color: blue;
+        border-radius: 12px;
+        margin-left: 5px;
+        background-color: aliceblue;
+}
+
+.headings {
+      
+        width: 50%;
+        float: left;
+        margin-top: 36px;
+        font-family: 'orkneybold';
+ 
+    
+}
+.printer{
+        width: 40%;
+        float: left;
+
+}
+
+.printer img {    position: absolute;
+                    right: 4px;
+                    top: 125px;
+                    width: 574px;
+               
+                
+                
+                }
+
+.slide-2 {
+    padding-top: 50px;
+}
+
+
+.bg {
+
+        background-image: url(photoshop-images/bg.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 524px;
+
+}
+.blue {
+
+        background-image: url(photoshop-images/blue-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 600px;
+}
+.bton {
+        padding: 12px 45px;
+        margin-top: 16px;
+        background-color: #e6f3fc;
+}
+h1 {
+        font-size: 45px;
+        font-family: 'sqmarket';
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        line-height: 61px;
+        letter-spacing: 2px;
+}
+h3{
+
+        font-size: 26px;
+        font-weight: 300;
+    
+}
+.pos {
+        font-size: 38px;
+        font-weight: 300;
+
+}
+.mid {
+        text-align: center;
+        margin-left: -80px;
+        margin-top: 72px;
+
+}
+.portion-a {
+        margin-top:  93px;
+        width: 50%;
+        float: left;
+
+}
+.list {
+        line-height: 27px;
+        margin-top: 16px;
+        list-style: none;
+        list-style-image: url(photoshop-images/list-icon.png);
+        margin-left: 30px;
+}
+.portion-b {
+    
+        width: 50%;
+        float: left;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+.portion-b img{
+    
+    width: 100%;
+    max-width: 450px;
+}
+
+.section-bg {
+    
+        background: url("photoshop-images/bg2.png") no-repeat center center;
+        background-size: cover;
+        height: 333px;
+        padding: 225px 0;
+    
+}
+.portion-c {
+
+
+        float: left;
+        width: 40%;
+        margin-top: 43px;
+}
+.comp{
+        text-align: left;
+}
+.grey {
+    color: grey;
+}
+.text {
+    width: 60%;
+}
+.id {
+   text-align: left;
+}
+.center {
+
+    text-align: center;
+}
+.pg {
+        width: 30%;
+        float: left;
+}
+.mail {
+    margin-left: 63px;
+}
+.form {
+    
+ 
+    
+}
+form {
+    
+}
+.boxes {
+        padding: 10px 10px 10px 10px;
+    width: 94%;
+}
+.move {
+        float: left;
+        width: 48%;
+    }
+.box-2 {
+margin-left: 27px;
+
+}
+.space {
+
+margin-top: 27px;
+}
+.reg {
+ 
+        width: 60%;
+        float: left;
+        margin-top: 43px;
+    
+}
+.box {
+    padding: 10px;
+    width: 97%;
+}
+.submit {
+        padding: 10px;
+        text-align: center;
+        background-color: #6482f4;
+        width: 50%;
+        float: right;
+        padding: 10px;
+        color: white;
+        font-family: 'robotoregular';
+        border: none;
+}
+.trial {
+        background-image: url(photoshop-images/lastbg.png);
+        padding-bottom: 8px;
+        background-repeat: no-repeat;
+        margin-top: -540px;
+        position: relative;
+        z-index: -1;
+        padding-top: 535px;
+        background-position: top center;
+        background-size: cover;
+}
+textarea {
+   
+        
+            margin-top: 27px;
+                width: 97%;
+            height: 500px;
+                max-height: 100px;
+        padding: 10px;
+
+
+}
+footer {
+            background: #6482f4;
+            padding-top: 52px;
+            padding-bottom: 11px;
+          
+}
+.portion-right{
+            float: left;
+            width: 50%;
+    
+}
+.portion-left{
+        float: left;
+        width: 50%;
+    
+}
+.date {
+        color: white;
+        padding-top: 25px;
+}
+.privacy ul li {
+        color: white;
+        list-style: none;
+        display: inline-block;
+        padding: 16px;
+}
+.logos ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+
+}
+.logos {
+    text-align: right;
+}
+.privacy {
+    padding-left: 128px;
+    margin-top: 21px;
+}
+.plan {
+     
+        background-image: url(photoshop-images/blue-bg.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding: 180px 0px 80px 0;
+        min-height: 590px;
+        background-size: cover;
+
+}
+.pricing_table {
+            background-color: rgb(255, 255, 255);
+            width: 30%;
+            text-align: center;
+            margin: 30px 0px;
+            padding: 30px 0 60px 0;
+            float: left;
+            margin-right: 3%;
+}
+.table-2 {
+        background-color: #ededed;
+}
+
+
+
+.main_price {  font-size: 18px;}
+
+.value { font-size: 40px; font-weight: 500;}
+
+.currency { font-size: 18px !important; position: absolute; margin-top: 7px;
+margin-left: -11px;
+color: gray;
+}
+.order_plan {
+
+
+        background: #4764d4;
+        font-size: 15px;
+        color: #fff;
+        padding: 8px 45px;
+        border:none;
+        text-transform: uppercase;
+}
+.price_list {
+    margin: 10px 40px;
+   
+}
+
+
+
+.price_list  li {
+        list-style: none;
+        padding-top: 30px;
+        color: rgb(88, 85, 85);
+        border-bottom: 1px solid rgb(201, 193, 193);
+        padding: 15px 0;
+        text-transform: uppercase;
+    }
+.month {
+    color: rgb(88, 85, 85);
+}
+.anypos 
+{
+        margin-top: 20px;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+        
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+     
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+        .wrapper {
+                width: 100%;
+           
+            }
+
+            .mobile-btn img {width: 24px;}
+            .mobile-btn { display: block;}
+            .logo { width: 100%;text-align: center;}
+
+            .nav {  width:100%; text-align: center; margin: 15px 0; display: none; }
+
+            .nav li {
+                list-style: none;
+                display: block;
+                border: 1px solid #dedede;
+                padding: 10px 20px;
+            }
+
+
+
+            .btn { width: 100%; text-align: center;}
+            .nav li a {   
+                     
+                padding: 10px  6px;}
+                .bg {
+                        min-height:965px;
+                }
+                .headings {
+                        text-align: center;
+                        width: 100%;
+                        
+                }
+                .printer img {
+   
+                        width: 90%;                       
+                        margin-top: 30px;
+                        position: inherit;
+                        right: 0;
+                     
+                }
+                .printer {
+                        width: 100%;
+                        text-align: center;
+                }
+                .portion-a {
+                        margin-top: 60px;
+                        width: 100%;
+                      margin-left: 0;
+                }
+                .portion-b {
+                        width: 100%;
+                        margin-top: 20px;
+                        text-align: center;
+                }
+                .portion-b img {
+                        max-width: 350px;
+                }
+                .section-bg {
+                        height: 528px;
+                        padding: 145px 0;
+                }
+                .mid {
+
+                        text-align: center;
+                        margin-left: 0px;
+                        margin-top: 15px;
+                }
+                .pos {
+                        font-size: 25px;
+                }
+                .set {
+                
+                }
+                .text {
+                        width: 95%;
+                        
+                }
+
+
+                .plan h1 {  line-height:3.2rem;}
+
+                .pricing_table {     width: 100%;
+                        
+                        margin-right: 0px;}
+                        h1 {
+                                line-height: 1.2;
+                                font-size: 45px;
+                        }
+                        .portion-c {
+                                width: 100%;
+                        }
+                        .pg {
+                                width: 100%;
+                                text-align: center;
+                        }
+                        .mail {
+                                margin-left: 0px;
+                        }
+                        .reg {
+                                width: 100%;
+                                padding: 0px 0px;
+                        }
+                        textarea {
+                                width: 102%;
+                        }
+                        footer {
+                                
+                                padding-top: 73px;
+                                min-height: 305px;
+                                padding-left: 40px;
+                                padding-right: 40px;
+                        }
+
+                        .portion-left {
+                                text-align: center;
+                                
+                                width: 100%;
+                        }
+                        .portion-right {
+                                    
+                                        width: 100%;
+                                        text-align: center;
+                        }
+                        .privacy {
+                                padding-left: 0;
+                                margin: 0;
+                        }
+                        .privacy ul li {
+                                padding: 4px;
+                                display: inline-block;
+                        }
+                        .logos {
+                                text-align: center;
+                                margin: 22px 0;
+                        }
+                        .logos ul li {
+                                padding: 1px;
+                        }
+                        .date {
+                                padding: 0;
+                                margin-bottom: 30px;
+                        }
+                        .date p {
+                                margin: 0;
+                        }
+
+                        .trial {
+                                        min-height: 1005px;
+                                        background-size: cover;
+                        }
+                        .submit{
+                               float: none;
+                               width: 100%;
+                        }p {
+                                font-size: 20px;
+                        }
+                        .pos {
+                                font-size: 37px;
+                        }
+                        .line {
+                                line-height: 1.9
+                        }
+                        .omni {
+                                padding-left: 12px;
+                        }
+                        .lines {
+                                width: 180px;
+                                text-align: center;
+                        }
+                        .small img {
+                                width: 230px;
+                        }
+                        .large img {
+                                width: 280px;
+                        }
+                        .medium img { 
+                                width: 325px;
+
+                        }
+                        .set {
+                                padding-left: 25px;
+                        }
+                        .headings 
+                        {
+                                width:93%;
+                                padding-left: 7%;
+                                line-height: 2.9;
+                                text-align: inherit;
+                                margin-top: 0px;
+                        }
+
+                        .bton {
+                                padding: 12px 28px;
+                        }
+
+                        .sell img {
+                                width: 200px;
+                                margin-top: 25px;
+                        }
+                        form {
+                                width: 100%;
+
+                        }
+                        .top {
+                                margin-top: 27px;
+                        }.move {
+                                width: 100%;
+                        }
+                        .box-2 {
+                                margin-left: 0px;
+                        }
+                        .boxes {
+                                width: 93%;
+                        }
+                        textarea {
+                                width: 94%;
+                        }
+                        .plan {
+                                padding: 330px 0 300px 0;
+                        }
+                        .chng {
+                                font-weight: 500;
+                                font-size: 29px;
+                        }
+
+
+
+}
+
+
+
+
+
+
+
+
+

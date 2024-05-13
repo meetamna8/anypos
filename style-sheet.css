@@ -1,0 +1,100 @@
+.wrapper {
+    margin: 0px auto;
+    width: 80%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    border-bottom: 1px solid rgb(233, 218, 218);
+    
+}
+nav {
+    float: left;
+    width: 50%;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav li:hover {
+    color: red;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    margin-top: 16px;
+}
+.bg {
+    background-image: url(photoshop-images/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+.buttons {    
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+    
+}
+.clear {
+    clear: both;
+}
+.button-1 {
+    border-color:#FF4014;
+    padding: 10px 20px;
+    color:#FF4014;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+.button-2 {
+    border-color: #4267F1;
+    padding: 10px 20px;
+    color:#4267F1;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.button-1:hover {
+    background-color: #FF4014;
+    color: white;
+}
+.button-2:hover {
+    background-color:#4267F1;
+    color: white;
+}
+h3 {
+    font-size: 26px;
+    font-weight: 315px;
+    margin: 0px;
+    line-height: 55px;
+
+}
+h1{
+    font-size: 56px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.headings {
+    width: 55%;
+    float: left;
+    margin-top: 90px;
+}
+.printer {
+    width: 45%;
+    float: left;
+    margin-top: 70px;
+}
+.printer img {
+    width: 550px;
+}
